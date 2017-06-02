@@ -1,0 +1,86 @@
+.overview
+  &__title
+    padding 66px 0 52px
+
+  &__lists
+    width 80%
+    position relative
+    margin 0 auto
+    padding 0
+    list-style none
+    padding-bottom 10px
+    &:last-child
+      padding-bottom 75px
+
+  &__list
+    font-size 24px
+    font-weight normal
+    line-height 2.17
+    color #757575
+    padding-left 340px
+
+
+  &__list--first
+    padding-left 0
+    border-bottom 2px solid #d8d8d8
+    font-size 32px
+    font-weight 300
+    line-height 1.69
+    color #212121
+    position relative
+    text-transform uppercase
+    &:before
+      content attr(data-attr)
+      width 100px
+      height 40px
+      position absolute
+      bottom -40px
+    &:after
+      content ''
+      background url('../img/overview/st.svg') center center no-repeat
+      background-size 100%
+      display inline-block
+      width 20px
+      height 20px
+      position absolute
+      right 20px
+      top 20px
+
++below(880px)
+  .overview
+    &__list
+      padding-left 200px
+    &__list--first
+      padding-left 0
+      font-size 28px
+
++below(840px)
+  .overview
+    &__list
+      padding-left 20%
+    &__list--first
+      padding-left 0
+      font-size 28px
+      &:before
+        display none
+
++below(705px)
+  .overview
+    &__title
+      padding 33px 0 25px
+    &__lists
+      width 90%
+      &:last-child
+        padding-bottom 35px
+    &__list
+      padding-left 10px
+      font-size 18px
+    &__list--first
+      padding-left 0
+      font-size 22px
+      &:after
+        width 15px
+        height 15px
+        position absolute
+        right 20px
+        top 15px

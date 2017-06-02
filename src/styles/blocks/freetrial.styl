@@ -1,0 +1,110 @@
+.free-trial
+  padding-top 75px
+
+  &__top
+    background-image url('../img/freetrial/bg.jpg')
+    background-size cover
+    position relative
+    height 720px
+
+  &__gradient
+    background-image linear-gradient(-180deg, rgba(39,58,109,0.50) 0%, rgba(24,79,136,0.10) 100%)
+    width 100%
+    height 100%
+    position absolute
+
+  &__wrapper
+    padding 132px 182px 0px
+    text-align center
+    color #fff
+    position relative
+    z-index 888
+
+  &__title
+    font-size 60px
+    font-weight 600
+    line-height 1.17
+    margin 0
+    padding-bottom 31px
+
+  &__line
+    border none
+    background-color #fafafa
+    color #fafafa
+    height 1px
+
+  &__text
+    font-family 'Source Sans Pro', sans-serif
+    font-size 34px
+    line-height 1.41
+    margin 0
+    padding 30px 94px 60px
+
+  &__video
+    width 100%
+    height 520px
+    background-color #c5cae9
+    box-shadow 0 8px 8px 0 rgba(0, 0, 0, 0.24), 0 0 8px 0 rgba(0, 0, 0, 0.12)
+
+  &__bottom
+    height 360px
+    background-image linear-gradient(to bottom, #3f51b5, #273b6d)
+    text-align center
+
+  &__button
+    position relative
+    width 590px
+    display inline-block
+    top 310px
+    border-radius 4px
+    background-color #ff9800
+    text-decoration none
+    transition all .3s ease-in-out
+    box-shadow 0 2px 2px 0 rgba(0,0,0,0.14),0 1px 5px 0 rgba(0,0,0,0.12),0 3px 1px -2px rgba(0,0,0,0.2)
+
+    &:hover
+      box-shadow 0 3px 3px 0 rgba(0,0,0,0.14),0 1px 7px 0 rgba(0,0,0,0.12),0 3px 1px -1px rgba(0,0,0,0.2)
+      background-color #f9a426
+
+    p
+      text-align center
+      font-weight 600
+      font-size 30px
+      line-height 1.8
+      color #fff
+      margin 0
+      padding 23px 0
+      text-transform uppercase
+
++below(1080px)
+  .free-trial
+    &__wrapper
+      padding 65px 90px 0px
+
+    &__title
+      font-size 50px
+
+    &__text
+      font-size 24px
+
++below(705px)
+  .free-trial
+    &__wrapper
+      padding 35px 45px 0px
+    &__top
+      height 600px
+    &__text
+      padding 30px 10px 60px
+    &__button
+      width 90%
+      p
+        font-size 20px
+
++below(450px)
+  .free-trial
+    &__wrapper
+      padding 35px 15px 0px
+    &__button
+      width 90%
+      p
+        font-size 14px

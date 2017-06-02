@@ -1,0 +1,8 @@
+include ./mixins.jade
+
+- var lists = [{'first':'UNDERSTAND','attr':'07:33','step1':'First Step','step2':'Welcome from the co-founder'},{'first':'practice','step1':'Instructions','step2':'Web Development by doing: HTML/CSS','step3':'Submmiting your website'},{'first':'STUDENT FINANCE','step1':'Journey Continues','step2':'Your video pitch','step3':'Student Finance Application','step4':'CodersTrust pledge'}]
+
+section.overview
+  h1.global__title.overview__title block overview
+  each list in lists
+    +overview(list)

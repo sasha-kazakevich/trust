@@ -1,0 +1,9 @@
+include ./mixins.jade
+
+- var profits = [{'img':'img/profit/p1.svg','text':'Make your first website'},{'img':'img/profit/p2.svg','text':'Make your first personal branding video'},{'img':'img/profit/p3.svg','text':'Meet our Community'}]
+
+section.profits
+  h1.global__title.profits__title By the end of the trial you’ll:
+  div.profits__wrapper
+    each profit in profits
+      +profit(profit)

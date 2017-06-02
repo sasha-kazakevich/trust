@@ -1,0 +1,12 @@
+- var lists = ['HOW IT WORKS','STUDENT FINANCE','SUCCESS STORIES','LOGIN','FREE TRIAL']
+
+header.header
+  div.header__wrapper
+    img.header__logo(src="img/header/ct_logo.svg" alt="logo")
+    nav.header__menu#header-menu
+      ul.header__items
+        each list in lists
+          li.header__item
+            a(href="#")= list
+    div.header__burger-button#burger-button
+    div.header__open-menu#open-menu

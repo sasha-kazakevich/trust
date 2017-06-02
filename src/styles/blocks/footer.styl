@@ -1,0 +1,76 @@
+.footer
+  background-image linear-gradient(to bottom, #3f51b5, #273b6d)
+  font-size 16px
+  line-height 1.75
+
+  &__title
+    padding 48px 0 21px
+
+  &__press
+    width 90%
+    height 150px
+    margin 0 auto 91px
+    background-color #fff
+    display flex
+    justify-content space-around
+    align-items center
+    box-shadow: 0 0 8px 0 rgba(0,0,0,0.12), 0 8px 8px 0 rgba(0,0,0,0.24);
+
+  &__info
+    display flex
+    color #fff
+    justify-content space-around
+
+  &__name
+    width 343px
+
+  &__lists
+    list-style none
+    margin 0
+    padding 0
+
+  &__list
+    a
+      display block
+      text-decoration none
+      color #fff
+
+  &__list--first
+    font-weight bold
+    text-transform uppercase
+    padding-bottom 21px
+
+  &__list--inline
+    a
+      display inline
+      padding-right 24px
+      img
+        transition all .3s ease-in-out
+        box-shadow 0 2px 2px 0 rgba(0,0,0,0.14),0 1px 5px 0 rgba(0,0,0,0.12),0 3px 1px -2px rgba(0,0,0,0.2)
+        &:hover
+          opacity .8
+          box-shadow 0 3px 3px 0 rgba(0,0,0,0.14),0 1px 7px 0 rgba(0,0,0,0.12),0 3px 1px -1px rgba(0,0,0,0.2)
+
++below(840px)
+  .footer
+    &__title
+      padding 82px 0 21px
+    &__press
+      display block
+      width 200px
+      height auto
+      text-align center
+      a
+        display block
+        margin-bottom 20px
+    &__info
+      display block
+      text-align center
+    &__name
+      width 90%
+      margin 0 auto
+    &__lists
+      padding-bottom 30px
+    &__list--inline
+      a
+        padding 0 12px

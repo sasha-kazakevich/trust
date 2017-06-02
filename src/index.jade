@@ -1,0 +1,29 @@
+doctype html
+html(lang="en")
+  head
+    meta(charset="UTF-8")
+    meta(name="viewport", content="width=device-width, initial-scale=1.0")
+    meta(name="format-detection", content="telephone=no")
+    
+    title Boilerplate
+    
+    link(href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i" rel="stylesheet")
+    link(href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet")
+    link(rel="stylesheet" href="./css/main.css")
+    
+    script(src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js")
+    script(src="js/mediaelement-and-player.min.js")
+    
+    
+  body
+    include ./blocks/header.jade
+    
+    include ./blocks/freetrial.jade
+    include ./blocks/profit.jade
+    include ./blocks/overview.jade
+    include ./blocks/path.jade
+    include ./blocks/community.jade
+    
+    include ./blocks/footer.jade
+    
+    script(src="js/script.js")

@@ -1,0 +1,69 @@
+.path
+  background-image linear-gradient(to bottom, #3f51b5, #273b6d)
+  height 360px
+
+  &__title
+    padding-top 66px
+
+  &__wrapper
+    display flex
+    justify-content space-around
+    position relative
+    bottom -120px
+
+  &__coder
+    width 43%
+    height 270px
+    border-radius 4px
+    background-color #ffffff
+    box-shadow 0 2px 2px 0 rgba(0,0,0,0.24),0 1px 5px 0 rgba(0,0,0,0.12),0 3px 1px -2px rgba(0,0,0,0.2)
+    text-align center
+    transition all .3s ease-in-out
+    &:hover
+      box-shadow 0 0 8px 0 rgba(0,0,0,0.10), 0 8px 8px 0 rgba(0,0,0,0.10)
+
+  &__image
+    position relative
+    top -50px
+
+  &__text
+    padding 0 100px
+    position relative
+    top -50px
+    font-size 28px
+    font-weight bold
+    line-height 1.29
+    color #4a4a4a
+
++below(1293px)
+  .path
+    &__text
+      padding 0 55px
+
++below(1080px)
+  .path
+    &__text
+      padding 0
+
++below(1040px)
+  .path
+    height auto
+    &__title
+      padding-top 33px
+    &__wrapper
+      display block
+      bottom -60px
+    &__coder
+      width 80%
+      margin 0 auto
+      &:first-child
+        margin-bottom 70px
+
++below(640px)
+  .path
+    &__coder
+      height auto
+    &__image
+      width 30%
+    &__text
+      font-size 22px

@@ -1,0 +1,12 @@
+mixin profit(profit)
+  div.profits__profit
+    img.profits__image(src= profit.img alt="images")
+    p.profits__text= profit.text
+
+mixin overview(list)
+  ul.overview__lists
+    li.overview__list.overview__list--first(data-attr= list.attr)= list.first
+    li.overview__list= list.step1
+    li.overview__list= list.step2
+    li.overview__list= list.step3
+    li.overview__list= list.step4

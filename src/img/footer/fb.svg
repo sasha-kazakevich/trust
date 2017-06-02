@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="36px" height="36px" viewBox="0 0 36 36" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41 (35326) - http://www.bohemiancoding.com/sketch -->
+    <title>Shape</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Welcome" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Trial" transform="translate(-1085.000000, -4557.000000)" fill="#FFFFFF">
+            <g id="Group-6" transform="translate(65.000000, 4514.000000)">
+                <g id="post-facebook" transform="translate(1020.000000, 43.000000)">
+                    <g id="Page-1">
+                        <g>
+                            <g id="Icons-Social">
+                                <g id="post-facebook">
+                                    <path d="M32.4,0 L3.6,0 C1.62,0 0,1.62 0,3.6 L0,32.4 C0,34.38 1.62,36 3.6,36 L32.4,36 C34.38,36 36,34.38 36,32.4 L36,3.6 C36,1.62 34.38,0 32.4,0 L32.4,0 Z M30.6,3.6 L30.6,9 L27,9 C25.92,9 25.2,9.72 25.2,10.8 L25.2,14.4 L30.6,14.4 L30.6,19.8 L25.2,19.8 L25.2,32.4 L19.8,32.4 L19.8,19.8 L16.2,19.8 L16.2,14.4 L19.8,14.4 L19.8,9.9 C19.8,6.48 22.68,3.6 26.1,3.6 L30.6,3.6 L30.6,3.6 Z" id="Shape"></path>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
